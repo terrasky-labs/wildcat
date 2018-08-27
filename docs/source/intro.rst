@@ -2,7 +2,7 @@
 
 Introducing Wildcat
 ===================
-Wildcat is a Python SDK to develop apps for solving Ising problems. It is installable on your PC so that you can quickly start solving them.
+Wildcat is an open source Python SDK to develop apps for solving Ising problems. It is installable on your PC so that you can quickly start solving them.
 Currently, the SDK includes local Simulated Annealing solver, but you can connect our server to use solvers/resources out there.
 
 
@@ -12,7 +12,7 @@ What is Ising model
 Real Quantum Annealing(QA) machines are built upon physical model called Ising model, which can be computationally
 simulated on our PCs with algorithms called Simulated Annealing(SA) or Simulated Quantum Annealing(SQA).
 1-dimensional Ising model is a 1D array of quantum bits (qubits), each of them has a ‘spin’ of +1(up) or -1(down).
-2-dimensional Ising model is similar, it consists of a plainer lattice and has more adjacent qubits than 1D.
+2-dimensional Ising model is similar, it consists of a planar lattice and has more adjacent qubits than 1D.
 Although the complex physics may be overwhelming to you, Wildcat let you easily calculate the model without knowing much about them.
 
 
@@ -44,7 +44,7 @@ methods based on Suzuki-Trotter matrix decomposition are used in the algorithm.
 QUBO
 ----
 
-Ising model problems are represented by Quadratic Unconstrained Optimization (QUBO) problems.
+Ising model problems are represented by Quadratic Unconstrained Binary Optimization (QUBO) problems.
 Although variables in combinatorial optimization problems are of {0, 1}, quantum spins above are represented by {-1, 1},
 so we have to transform their representation. Wildcat can automatically handle them, so you do not have to know about {-1, 1} things.
 

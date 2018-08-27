@@ -10,7 +10,7 @@ Welcome to Wildcat's documentation!
 Overview
 --------
 
-Wildcat is a open source Python SDK to develop apps for solving Ising problems. It is installable on your PC so that you can quickly start solving them.
+Wildcat is an open source Python SDK to develop apps for solving Ising problems. It is installable on your PC so that you can quickly start solving them.
 Currently, the SDK includes local Simulated Annealing solver, but you can connect our server to use solvers/resources out there.
 
 
