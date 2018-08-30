@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Wildcat documentation build configuration file, created by
+# Wildqat documentation build configuration file, created by
 # sphinx-quickstart on Sat Mar 10 17:08:07 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Wildcat'
+project = u'Wildqat'
 copyright = u'2018, Shumpei Kobayashi'
 author = u'Shumpei Kobayashi'
 
@@ -117,7 +117,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Wildcatdoc'
+htmlhelp_basename = 'Wildqatdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -144,7 +144,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Wildcat.tex', u'Wildcat Documentation',
+    (master_doc, 'Wildqat.tex', u'Wildqat Documentation',
      u'Shumpei Kobayashi', 'manual'),
 ]
 
@@ -154,7 +154,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wildcat', u'Wildcat Documentation',
+    (master_doc, 'wildqat', u'Wildqat Documentation',
      [author], 1)
 ]
 
@@ -165,8 +165,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Wildcat', u'Wildcat Documentation',
-     author, 'Wildcat', 'One line description of project.',
+    (master_doc, 'Wildqat', u'Wildqat Documentation',
+     author, 'Wildqat', 'One line description of project.',
      'Miscellaneous'),
 ]
 

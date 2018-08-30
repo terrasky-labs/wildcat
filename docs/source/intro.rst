@@ -1,8 +1,8 @@
 .. _intro:
 
-Introducing Wildcat
+Introducing Wildqat
 ===================
-Wildcat is an open source Python SDK to develop apps for solving Ising problems. It is installable on your PC so that you can quickly start solving them.
+Wildqat is an open source Python SDK to develop apps for solving Ising problems. It is installable on your PC so that you can quickly start solving them.
 Currently, the SDK includes local Simulated Annealing solver, but you can connect our server to use solvers/resources out there.
 
 
@@ -13,7 +13,7 @@ Real Quantum Annealing(QA) machines are built upon physical model called Ising m
 simulated on our PCs with algorithms called Simulated Annealing(SA) or Simulated Quantum Annealing(SQA).
 1-dimensional Ising model is a 1D array of quantum bits (qubits), each of them has a ‘spin’ of +1(up) or -1(down).
 2-dimensional Ising model is similar, it consists of a planar lattice and has more adjacent qubits than 1D.
-Although the complex physics may be overwhelming to you, Wildcat let you easily calculate the model without knowing much about them.
+Although the complex physics may be overwhelming to you, Wildqat let you easily calculate the model without knowing much about them.
 
 
 
@@ -46,13 +46,13 @@ QUBO
 
 Ising model problems are represented by Quadratic Unconstrained Binary Optimization (QUBO) problems.
 Although variables in combinatorial optimization problems are of {0, 1}, quantum spins above are represented by {-1, 1},
-so we have to transform their representation. Wildcat can automatically handle them, so you do not have to know about {-1, 1} things.
+so we have to transform their representation. Wildqat can automatically handle them, so you do not have to know about {-1, 1} things.
 
 
 
 Checking and Verifying solutions
 --------------------------------
 
-We can calculate how good (or bad) a solution is by calculating ‘Energy’ of the solution, which can be done by a Wildcat one-liner.
+We can calculate how good (or bad) a solution is by calculating ‘Energy’ of the solution, which can be done by a Wildqat one-liner.
 Repeatedly solving Ising model, comparing that energy may let you know which is the best, or better answer to the problem.
 If the problem is of NP, then checking whether the constraints are fulfilled can also be calculated in polynomial time.
